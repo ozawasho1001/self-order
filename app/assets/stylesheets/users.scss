@@ -1,0 +1,56 @@
+// h1 美味しいものを食べよう
+.account {
+  font-family: 'Anton', sans-serif;
+  margin: 10% 0px 0px 15%;
+  font-size: 6em;
+}
+
+// 新規登録、アカウント　クラス
+.account-Verification {
+   margin-top: 10%;
+   text-align: center;
+}
+ 
+  // 新規登録ボタン
+.signin-button {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-size: 40px;
+}
+  
+  // アカウント確認のボタン
+.login-button {
+    font-size: 40px;
+    // margin-left: 5%;
+  }
+
+
+
+
+// h1 アカウント登録
+.new-account {
+  margin: 40px;
+  text-align: center;
+  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+  font-size: 5em;
+}
+
+// label form class
+.accoun-label-form {
+  margin: 10px;
+  
+}
+
+.form-group {
+  margin: 4% 0px 0px 0px;
+  text-align: center;
+  font-size: 2em;
+  
+  .label-group {
+    margin: 10px;
+    margin-right: 40px;
+  }
+}
+
+.registration {
+  font-size: 2em;
+}
