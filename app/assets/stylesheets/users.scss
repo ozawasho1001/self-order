@@ -1,31 +1,48 @@
-// h1 美味しいものを食べよう
-.account {
-  font-family: 'Anton', sans-serif;
-  margin: 10% 0px 0px 15%;
-  font-size: 6em;
+.top-hero-wrapper  {
+  background-image: url('page-top.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+// h1 美味しいものを食べよう
+.account {
+  padding: 20px;
+  color: black;
+  font-size: 70px;
+}
+  
 // 新規登録、アカウント　クラス
 .account-Verification {
-   margin-top: 10%;
-   text-align: center;
+  margin-top: 10%;
+  text-align: center;
 }
  
   // 新規登録ボタン
 .signin-button {
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
-    font-size: 40px;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  font-size: 40px;
 }
   
   // アカウント確認のボタン
 .login-button {
-    font-size: 40px;
-    // margin-left: 5%;
-  }
+  font-size: 40px;
+}
 
 
 
-
+.hoge {
+  background-image: url('account.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 // h1 アカウント登録
 .new-account {
   margin: 40px;
