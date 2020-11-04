@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   
   resources :users
   resources :accounts
+  resources :prodact_listes
+  get    '/login',   to: 'accounts#new'
+  post   '/login',   to: 'accounts#create'
+  delete '/logout',  to: 'accounts#destroy'
  end

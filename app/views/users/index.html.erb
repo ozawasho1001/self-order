@@ -1,13 +1,16 @@
 <div class="top-hero-wrapper text-center">
-    <h1 class="account">おいしいもの　たくさん食べよう！</h1>
-    <div class="account-Verification" %>
-    <div class="row">
-      <div class="col-md-6">
-        <button><%= link_to '新規登録', new_user_path, class: "  signin-button" %></button>
-      </div>
-    <div class="col-md-6">
-      <button><%= link_to 'アカウント', accounts_path, class: 'btn btn-green login-button' %></button>
+  <header>
+    <h1>おいしいを大事に。</h1>
+  </header>
+  
+  <div class="main">
+    <div>
+      <button class="sign-up-button">
+        <%= link_to "Sign Up", new_user_path, class: "signup-button" %>
+      </button>
+      <button class="sign-in-button">
+        <%= link_to "Sign In", accounts_path, class: "signin-button" %>
+      </button>
     </div>
-    </div>
+  </div>
 </div>
-
