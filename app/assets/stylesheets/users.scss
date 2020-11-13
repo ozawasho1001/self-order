@@ -33,7 +33,7 @@
 }
 
 .new-account {
-  background-image: url('account.jpg');
+  background-image: url('account-back-img.jpg');
   width: 100vw;
   height: 100vh;
   background-position: center;
@@ -49,4 +49,11 @@
 
 .acount .new-account .logo-wrapper {
   font-size: 50px;
+}
+
+.alert {
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
 }

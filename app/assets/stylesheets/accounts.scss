@@ -1,5 +1,33 @@
-.accounts-confirmation {
-  font-size: 5em;
-  text-align: center;
-  margin: 10% 0px 0px 0px;
+.account-page {
+  background-image: url('rice.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.account-page .accounts-confirmation {
+  font-family: fantasy;
+  font-size: 40px;
+  color: black;
+}
+.account-page .account-group .form-group .label-group {
+  font-size: 30px;
+  font-family: cursive;
+}
+.account-page .account-group .form-group .account-field-group {
+  width: -webkit-fill-available;
+  border-width: 4px;
+  background-color: #FFD5EC;
+}  
+.account-page .account-group .success-registration {
+  background-color: pink;
+  padding: 8px;
+  border-radius: 15px;
+  color: black;
 }

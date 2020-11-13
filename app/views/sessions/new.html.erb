@@ -1,0 +1,20 @@
+<div class="account-page"> 
+  <header>
+    <h1 class="accounts-confirmation">Log In</h1>
+  </header> 
+  <div class="account-group">
+    <%= form_for :session, url: login_path do |user| %>
+      <div class="form-group">
+        <%= user.label :email, class: "label-group" %> 
+        <%= user.email_field :email, class: "account-field-group" %>
+      </div>
+      
+      <div class="form-group">
+        <%= user.label :password, class: "label-group" %>
+        <%= user.password_field :password, class: "account-field-group"%>
+      </div>
+    
+       <%= user.submit "Sign In", class: "success-registration" %>
+    <% end %>
+  </div>
+</div>
