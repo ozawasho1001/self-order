@@ -1,37 +1,51 @@
-.top-hero-wrapper  {
-  background-image: url('page-top.jpg');
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
- 
-.top-hero-wrapper .main .sign-up-button {
-  border-color: skyblue;
-  background-color: skyblue;
-  border-width: 12px;
-  margin-right: 30px;
-}
+// トップページ
 
-.top-hero-wrapper .main .sign-up-button .signup-button {
+.top-hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+.top-hero-wrapper img {
+  margin: 5px 0 0 20px;
+}
+.top-hero-wrapper p {
+  margin-left: 30px;
+  display: contents;
+  font-weight: bold;
+  font-size: 20px;
+}
+.top-hero-wrapper .main div {
+  margin: 40px 40px 0 0;
+}
+.top-hero-wrapper .main div .sign-in-group {
+  border-color: #FFE4E1;;
+  background-color: #FFE4E1;;
+  margin-right: 40px;
+  border-radius: 36px;
+  font-size: 25px;
+  border-width: 17px;
+}
+.top-hero-wrapper .main div .sign-up-group {
+  border-color: #F0C3A9;;
+  background-color: #F0C3A9;;
+  margin-right: 40px;
+  border-radius: 36px;
+  font-size: 25px;
+  border-width: 17px;
+}
+.top-hero-wrapper .main div .sign-button {
   color: white;
+  font-size: 25px;
 }
+.background-img {
+  background-image: url("top-page.jpg");
+  height: 90vh;
+  width: 100%;
+}        
+  
 
-.top-hero-wrapper .main .sign-in-button {
-  border-color: skyblue;
-  background-color: skyblue;
-  border-width: 12px;
-}
-.top-hero-wrapper .main .sign-in-button .signin-button {
-   color: white;
-}
 
+// アカウント登録画面
 .new-account {
   background-image: url('account-back-img.jpg');
   width: 100vw;
@@ -46,14 +60,46 @@
   align-items: center;
   justify-content: space-around;
 }
-
-.acount .new-account .logo-wrapper {
-  font-size: 50px;
-}
-
 .alert {
   margin-bottom: 0px;
   position: fixed;
   width: 100%;
   z-index: 10000;
 }
+.account .new-account .logo-wrapper {
+  font-size: 50px;
+}
+.account .new-account .center-userregistation {
+}
+.account .new-account .center-userregistation .useraccount-registation-group {
+  display: flex;
+}
+.account .new-account .center-userregistation .useraccount-registation-group .label-group {
+  display: flex;
+  flex-direction: column;
+}
+.account .new-account .center-userregistation .useraccount-registation-group .label-group {
+  font-size: 20px;
+  color: #00EE00;
+  margin: 0 20px 32px 0;
+}
+.account .new-account .center-userregistation .useraccount-registation-group .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.account .new-account .center-userregistation .useraccount-registation-group .form-group .user-registation-form-group {
+    width: 240px;
+    height: 38px;
+    margin-bottom: 20px;
+}
+.account .new-account .center-userregistation .useraccount-registation-group .account-registation-button {
+  display: flex;
+  align-items: flex-end;
+}
+.account .new-account .center-userregistation .useraccount-registation-group .account-registation-button .btn-btn-success-registration {
+  border-radius: 24px;
+  background-color: #0F0;
+  width: 80px;
+  height: 40px;
+}
+

@@ -1,0 +1,13 @@
+%body
+  .account-page
+    %header
+      %h1.accounts-confirmation Log In
+    .account-group
+      = form_for :session, url: login_path do |user|
+        .form-group
+          = user.label :email, class: "label-group"
+          = user.email_field :email, class: "account-field-group"
+        .form-group
+          = user.label :password, class: "label-group"
+          = user.password_field :password, class: "account-field-group"
+        = user.submit "Sign In", class: "success-registration"

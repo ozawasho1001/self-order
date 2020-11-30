@@ -1,0 +1,14 @@
+%body
+  .top-hero-wrapper
+    %header
+      = image_tag "main-logo.jpeg"
+      %p　ー 美味しいを大切に。
+    .main
+      %div
+        %button.sign-up-group
+          = link_to "Sign Up", new_user_path, class: "sign-button"
+        %button.sign-in-group
+          = link_to "Sign In", login_path, class: "sign-button"
+          
+  .background-img        
+  

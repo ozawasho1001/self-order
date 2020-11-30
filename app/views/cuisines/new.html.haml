@@ -1,0 +1,17 @@
+%body
+  .container-cuisine-new
+    = form_with model: @cuisine, url: cuisines_path(@cuisine) do |f|
+      .product-group
+        %div
+          = f.label :名前, class:"form-item-label"
+          = f.text_field :name, class:"form-item-field"
+        %div
+          = f.label :価格, class:"form-item-label"
+          = f.text_field :price, class:"form-item-field"
+        %div
+          = f.label :画像, class:"form-item-label"
+          = f.file_field :photo, class:"form-item-field"
+        %div
+          = f.label :詳細, class:"form-item-label"
+          = f.text_area :text, class: "detail-form form-item-field"
+        = f.submit '登録',  class: "product-registration"

@@ -1,3 +1,50 @@
-// Place all the styles related to the cuisines controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// メニュー投稿
+.container-cuisine-new {
+    background-image: url("pohto-registration.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.product-group {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.product-group div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.form-item-field {
+    width: 60%;
+    margin: auto;
+    background-color: blanchedalmond;
+
+}
+.product-group div label {
+    font-size: 20px;
+    color: white;
+    color: orange;
+    background-color: black;
+    width: 40px;
+    font-family: serif;
+} 
+ .product-group div .detail-form {
+    height: 100px;
+    font-size: 20px;
+ }
+.product-group .product-registration {
+    position: absolute;
+    bottom: 100px;
+    height: 50px;
+    width: 180px;
+    font-size: 34px;
+    background-color:  #66FF66;
+    font-family: monospace;
+    color: black;
+    border-radius: 24px;
+}

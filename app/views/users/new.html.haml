@@ -1,0 +1,18 @@
+%body.account
+  .new-account
+    .logo-wrapper New Account.
+    .center-userregistation
+      = form_with model: @users do |user|
+        .useraccount-registation-group
+          .label-group
+            = user.label :name, class: "label-group"
+            = user.label :email, class: "label-group"
+            = user.label :password, class: "label-group"
+            = user.label :password_confirmation, class: "label-group"
+          .form-group
+            = user.text_field :name, class: "user-registation-form-group"
+            = user.email_field :email, class: "user-registation-form-group"
+            = user.password_field :password, class: "user-registation-form-group"
+            = user.password_field :password_confirmation, class: "user-registation-form-group"
+          .account-registation-button
+            = user.submit "登録", class: "btn-btn-success-registration"
