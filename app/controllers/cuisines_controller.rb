@@ -7,7 +7,7 @@ class CuisinesController < ApplicationController
   end
   
   def create
-    @cuisine = Cuisine.new(params.require(:cuisine).permit(:name, :price, :photo, :detail))
+    @cuisine = Cuisine.new(params.require(:cuisine).permit(:name, :price, :photo, :text))
     if @cuisine.save
       redirect_to  new_cuisine_path, success: '登録できました'
     else
